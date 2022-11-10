@@ -1,6 +1,6 @@
-# KCMBOT
+# AMKBOT
 
-A bot that answers question in Out of Office time.
+A bot that answers question about University.
 
 This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
 
