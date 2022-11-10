@@ -1,0 +1,75 @@
+[
+	{
+		"tag": "koszones",
+		"patterns": ["Hi!","Hello!","Greetings!","Good Morning!","Good Evening!", "Good Night!"],
+		"responses": ["Helló!","Szia, miben segíthetek?","Üdvözöllek, miben segíthetek?"],
+		"context_set": ""
+	},
+	{
+		"tag": "elkoszones",
+		"patterns": ["Good Bye!", "See you later!", "Have a nice day!"],
+		"responses": ["Menj csak, Szia","Szia!","Helló!","Örültem, minden jót!"],
+		"context_set": ""
+	},
+	{
+		"tag": "koszonom",
+		"patterns": [ "Thank you!", "Thanks a lot!", "Thanks!", "Thx!", "Thank you so much!", "Thanks for your help!"],
+		"responses": ["Szívesen!","Nagyon szívesen!","Igazán nincs mit!"],
+		"context_set": ""
+	},
+
+	{
+		"tag": "TOnyitva",
+		"patterns": [ "When is Tanulmanyi Osztaly open?", "When is TO open?", "When can I go to Tanulmanyi Osztaly?","When can I go to TO?","What is TO's opening time?", "What is Tanulmanyi Osztaly's opening time?"],
+		"responses": ["A Tanulmányi osztály nyitvatartása: Hétfőn és Pénteken 8:45-től 11:45-ig, Szerdán 8:45-től 11:45-ig és 13:15-től 14:30-ig tart nyitva."],
+		"context_set": ""
+	},
+	{
+		"tag": "TOelerhetoseg",
+		"patterns": [ "How can I reach out to the Tanulmanyi Osztaly?","How can I reach out to the TO?","Where can I find additional information about Tanulmanyi Osztaly?","Where can I find additional information about TO?","What's the email of TO?","What's the email of Tanulmanyi Osztaly?","Where is the location of Tanulmanyi Osztaly?","Where is the location of TO?","Where is Tanulmanyi Osztaly?","Where is TO?"],
+		"responses": ["Elérhetőségei a következők: Helye: 8000 Székesfehérvár Budai út 45. K épület földszint 29-es iroda., Email címe: to@amk.uni-obuda.hu"],
+		"context_set": ""
+	},
+	{
+		"tag": "tanevrend",
+		"patterns": [ "What is the order of the school year?","Where can I find the order of the school year?"],
+		"responses": ["Az alábbi linken megtalálod az aktuálisat és a régebbieket is: [Tanév rendje](http://amk.uni-obuda.hu/index.php/hu/hallgatoknak/tanev-rendje)"],
+		"context_set": ""
+	},
+	{
+		"tag": "tanfolyam",
+		"patterns": [ "What courses are there at the university?","What kind of courses can I take?","What kind of courses are there?","Are there any free courses?","Are there courses at the university?"],
+		"responses": ["Az Alba Regia Műszaki Karon 2000. óta működik a CCNA (Cisco Certified Networking Associate) képzést folytató CISCO Hálózati Akadémia, amelynek vezetője dr. Nagy Rezső, főiskolai docens.  A tanfolyam elvégzésével jelentősen nő a hallgatók munkaerő-piaci elhelyezkedési esélye. Így – bár a számítógépes hálózatokkal kapcsolatos specializációkat választó hallgatók tantárgyainak tematikájában a tanfolyam ismeretanyaga szerepel – számukra is javasolható az akadémiai kurzusok elvégzése gyakorlat-orientáltságuk és piaci elismertségük miatt. A képzés külső érdeklődők számára is nyitva áll, a foglalkozásokat jellemzően hétköznapokon, a késő délutáni – kora esti órákban tartjuk. Saját hallgatóink a képzési díjnak csak 25%-át fizetik. A most induló kurzusokban már a tananyag legújabb változatát oktatjuk. Az oktatott tananyag angol nyelvű, de az órákon magyar nyelvű magyarázatot kapnak a hallgatók. A Cisco-tanfolyam tehát a szakmai angol nyelv megismerését is segíti."],
+		"context_set": ""
+	},
+	{
+		"tag": "erasmus",
+		"patterns": [ "What is Erasmus?","How can I learn more about Erasmus?","Where can I learn more about Erasmus?","What kind of opportunities are there to study abroad?"],
+		"responses": ["Az alábbi linken megtalálod a részleteket róla: [ERASMUS](https://erasmus.uni-obuda.hu/)"],
+		"context_set": ""
+	},
+	{
+		"tag": "hallgatoionk",
+		"patterns": [ "What's HOK?","What's Hallgatoi Onkormanyzat?","How can I reach out to Hallagtoi Onkormanyzat?","How can I reach out to HOK?","Where can I get more information about HOK?","Where can I get more information about Hallgatoi Onkormanyzat?","How can I get contact with HOK?","How can I get contact with Hallgatoi Onkormanyzat?"],
+		"responses": ["Az alábbi linken megtalálod a részleteket róla: [Hallgató Önkormányzat oldala](https://erasmus.uni-obuda.hu/)"],
+		"context_set": ""
+	},
+	{
+		"tag": "kollegium",
+		"patterns": [ "Where can I get information about Kollegium?","Are there any opportunity to go to Kollegium?","Where can I sign up for Kollegium?"],
+		"responses": ["Az alábbi linken megtalálod a részleteket róla: [Óbudai Egyetem kollégium oldala](http://koll.uni-obuda.hu/)"],
+		"context_set": ""
+	},
+	{
+		"tag": "eproblemabejelentes",
+		"patterns": [ "Where can I report a problem?","Can I get some help?","Who can help me?"],
+		"responses": ["Az alábbi linken megtalálod a részleteket róla: [Óbudai Egyetem E-Problémamegoldó oldala](http://amk.uni-obuda.hu/index.php/hu/hallgatoknak/e-problemamegoldo)"],
+		"context_set": ""
+	},
+	{
+		"tag": "TO",
+		"patterns": [ "What is Tanulmanyi Osztaly?","What is TO?", "Where can I learn more about Tanulmanyi Osztaly?","Where can I learn more about TO?","Can I get some help about Tanulmanyi Osztaly?", "Can I get some help about TO?"],
+		"responses": ["A Tanulmányi osztály a tanulmányi előremeneteleink szempontjából az egyik legfontosabb iroda. További elérhetőséget itt találsz meg róla: [Tanulmányi osztály elérhetősége](http://amk.uni-obuda.hu/index.php/hu/hallgatoknak/tanulmanyi-osztaly)"],
+		"context_set": ""
+	}
+]
