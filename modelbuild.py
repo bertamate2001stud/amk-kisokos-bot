@@ -4,7 +4,7 @@ import tensorflow as tf
 import tensorflow_hub as tf_hub
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-with open('.\home\amk_kisokos\templates\intents.json','r',encoding="utf-8") as f:
+with open('/home/amk_kisokos/templates/intents.json','r',encoding="utf-8") as f:
     intents = json.load(f)
 
 patterns: list[str] = []
