@@ -25,7 +25,7 @@ from bots import AMKBot
 from config import DefaultConfig
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-
+execfile('modelbuild.py')
 # Catch-all for errors.
 async def on_error(context: TurnContext, error: Exception):
     # This check writes out errors to console log .vs. app insights.
